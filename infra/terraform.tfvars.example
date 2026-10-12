@@ -1,0 +1,15 @@
+# Copy to terraform.tfvars (git-ignored) and fill in.
+
+# Neon connection string
+database_url = "postgres://user:password@ep-xxxx.us-west-2.aws.neon.tech/neondb?sslmode=require"
+
+# Tuya cloud project credentials
+tuya_client_id     = "your-tuya-client-id"
+tuya_client_secret = "your-tuya-client-secret"
+
+# Long random string, e.g. `openssl rand -hex 32`
+jwt_secret = "change-me"
+
+# Optional overrides
+# tuya_base_url = "https://openapi.tuyaus.com"
+# region        = "us-west-2"
